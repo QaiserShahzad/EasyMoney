@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Easy Coin Budget</string>
+
+    <!--navigation drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--bottom navigation   -->
+    <string name="bottom_navigation_main">Home</string>
+    <string name="bottom_navigation_bank">Bank</string>
+    <string name="bottom_navigation_budget">Budget</string>
+    <string name="bottom_navigation_income">Income</string>
+    <string name="bottom_navigation_expenses">Expenses</string>
+    <string name="bottom_navigation_savings">Savings</string>
+
+    <!--extra income-->
+    <string name="extra_income_extra">Extra Income</string>
+    <string name="extra_income_investment">Investment Return</string>
+    <string name="extra_income_sale">Sale</string>
+    <string name="extra_income_bonus">Bonus</string>
+
+    <!--transactions-->
+    <string name="transactions_general">General</string>
+    <string name="transactions_groceries">Groceries</string>
+    <string name="transactions_restaurants">Restaurants</string>
+    <string name="transactions_coffee">Coffee</string>
+    <string name="transactions_house_hold">House Hold</string>
+    <string name="transactions_fuel">Fuel</string>
+    <string name="transactions_transportation">Transportation</string>
+    <string name="transactions_entertainment">Entertainment</string>
+    <string name="transactions_health_beauty">Health &amp; Beauty</string>
+    <string name="transactions_fitness">Fitness</string>
+    <string name="transactions_shopping">Shopping</string>
+    <string name="transactions_pets">Pets</string>
+    <string name="transactions_education">Education</string>
+    <string name="transactions_children">Children</string>
+
+    <!--bank-->
+    <string name="bank_title">Bank Overview</string>
+    <string name="bank_add_bank_account">Add Bank Account</string>
+    <string name="bank_add_loan_account">Add Loan Account</string>
+    <string name="bank_add_additional_account">Add Additional Account</string>
+
+    <!--budget-->
+    <string name="budget_title">Budget Overview</string>
+    <string name="budget_total_income">Total Income</string>
+    <string name="budget_total_recurring_expenses">Total Recurring Expenses</string>
+    <string name="budget_total_expenses">Total Expenses</string>
+    <string name="budget_total_estimated_expenses">Total Estimated Expenses</string>
+    <string name="budget_total_remaining">Total Remaining</string>
+
+    <!--income-->
+    <string name="income_title">Income</string>
+    <string name="income_amount">Amount</string>
+    <string name="income_frequency">Frequency</string>
+    <string name="income_description">Description</string>
+
+    <!--expenses-->
+    <string name="expenses_title">Expenses Overview</string>
+    <string name="expenses_recurring">Recurring\nExpenses</string>
+    <string name="expenses_estimated">Estimated\nExpenses</string>
+
+    <!--recurring expenses-->
+    <string name="recurring_expenses_mortgage">Mortgage/Rent</string>
+    <string name="recurring_expenses_auto">Auto Payment</string>
+    <string name="recurring_expenses_gas">Utilities: Gas</string>
+    <string name="recurring_expenses_electric">Utilities: Electric</string>
+    <string name="recurring_expenses_water">Utilities: Water</string>
+    <string name="recurring_expenses_trash">Trash</string>
+    <string name="recurring_expenses_phone">Phone</string>
+    <string name="recurring_expenses_credit_card">Credit Card</string>
+    <string name="recurring_expenses_loan">Loan</string>
+    <string name="recurring_expenses_insurance">Insurance</string>
+    <string name="recurring_expenses_transportation">Transportation: Bus/Train/Taxi/Fare</string>
+    <string name="recurring_expenses_television">Television/Internet</string>
+    <string name="recurring_expenses_gym">Gym</string>
+    <string name="recurring_expenses_savings_goal">Savings Goal</string>
+    <string name="recurring_expenses_prescriptions">Prescriptions</string>
+    <string name="recurring_expenses_Subscriptions">Subscriptions</string>
+    <string name="recurring_expenses_personal">Personal</string>
+    <string name="recurring_expenses_alimony">Alimony/Child Support</string>
+    <string name="recurring_expenses_child_care">Child Care</string>
+    <string name="recurring_expenses_children">Children</string>
+    <string name="recurring_expenses_investment_account">Investment Account</string>
+    <string name="recurring_expenses_retirement_account">Retirement Account</string>
+    <string name="recurring_expenses_education">Education</string>
+
+    <!--recurring expenses entry-->
+    <string name="recurring_expense_entry_amount">Amount</string>
+    <string name="recurring_expense_entry_frequency">Frequency</string>
+    <string name="recurring_expense_entry_date">Monthly Due Date</string>
+    <string name="recurring_expense_entry_description">Description</string>
+
+    <!--estimated expenses-->
+    <string name="estimated_expenses_title">Estimated Monthly Expenses</string>
+    <string name="estimated_expenses_groceries">Groceries</string>
+    <string name="estimated_expenses_auto">Auto Maintenance</string>
+    <string name="estimated_expenses_fuel">Fuel</string>
+    <string name="estimated_expenses_house_hold">House Hold</string>
+    <string name="estimated_expenses_breakfast">Food: Breakfast</string>
+    <string name="estimated_expenses_lunch">Food: Lunch</string>
+    <string name="estimated_expenses_dinner">Food: Dinner</string>
+    <string name="estimated_expenses_drinks">Alcohol / Drinks</string>
+    <string name="estimated_expenses_coffee">Coffee</string>
+    <string name="estimated_expenses_shopping">Shopping</string>
+    <string name="estimated_expenses_entertainment">Entertainment</string>
+    <string name="estimated_expenses_music">Music / Movies / Books</string>
+    <string name="estimated_expenses_toys">Toys</string>
+    <string name="estimated_expenses_pets">Pets</string>
+    <string name="estimated_expenses_health_beauty">Health &amp; Beauty</string>
+    <string name="estimated_expenses_personal">Personal</string>
+    <string name="estimated_expenses_other">Other</string>
+
+    <!--estimated expenses entry-->
+    <string name="estimated_expense_entry_amount">Amount</string>
+    <string name="estimated_expense_entry_description">Description</string>
+
+    <!--savings-->
+    <string name="savings_title">Saving Goals</string>
+    <string name="savings_add_goal">Add Savings Goal</string>
+
+    <!--savings goal-->
+    <string name="savings_goal_title">Title</string>
+    <string name="savings_goal_amount">Amount</string>
+    <string name="savings_goal_date">Goal Date</string>
+    <string name="savings_goal_average_monthly">Average Monthly Savings Required</string>
+    <string name="savings_goal_amount_saved">Amount Saved to Date</string>
+    <string name="savings_goal_remaining_amount">Remaining Amount</string>
+
+    <!--button-->
+    <string name="button_today">Today</string>
+    <string name="button_yesterday">Yesterday</string>
+    <string name="button_other_day">Other Day</string>
+    <string name="button_add">Add</string>
+
+    <string name="total">Total</string>
+    <!--<string name="action_settings">Settings</string>-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--<string name="app_name">Baba Finder</string>-->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+
+
+</resources>
+

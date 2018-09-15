@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#28b028</color>-->
+    <!--<color name="colorPrimaryDark">#1B5E20</color>-->
+    <color name="colorPrimaryLight">#00C853</color>
+
+    <!--<color name="colorAccent">@color/amber</color>-->
+    <color name="colorAccentDark">#FF8F00</color>
+    <color name="colorAccentLight">#FFE082</color>
+
+    <color name="colorPL2">#00E676</color>
+    <color name="colorPL3">#69F0AE</color>
+    <color name="colorPL4">#B9F6CA</color>
+    <color name="red">#ff0000</color>
+    <color name="colorPD2">#2E7D32</color>
+    <color name="colorPD3">#388E3C</color>
+    <color name="colorPD4">#43A047</color>
+    <color name="colorPD5">#66BB6A</color>
+    <color name="colorPD6">#81C784</color>
+    <color name="colorPD7">#A5D6A7</color>
+    <color name="colorPD8">#C8E6C9</color>
+    <color name="colorPD9">#E8F5E9</color>
+
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="lime">#CDDC39</color>
+    <color name="teal">#009688</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lightBlue">#03A9F4</color>
+    <color name="blue">#2196F3</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_five">#dadada</color>
+    <color name="black">#000000</color>
+
+
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="color">#0A5B52</color>
+
+    <color name="background">#009688</color>
+
+
+
+    <!---->
+        <!--<color name="colorPrimary">#28b028</color>-->
+        <!--<color name="colorPrimaryDark"> #2dc62d</color>-->
+        <!--<color name="colorAccent">#FF4081</color>-->
+        <!--<color name="colorWhite">#Fff</color>-->
+     <!---->
+        <!--<color name="log">#e8422f</color>-->
+        <!--<color name="green">#d3d3</color>-->
+
+
+
+
+
+    <!--<color name="colorPrimary">#28b028</color>-->
+    <color name="colorPrimary">#0A5B52</color>
+    <color name="colorPrimaryDark"> #0A5B52</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#Fff</color>
+    <color name="textColorPrimary">#e842</color>
+    <color name="log">#e8422f</color>
+    <color name="green">#0A5B52</color>
+
+
+
+
+</resources>

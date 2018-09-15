@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bnav_Home"
+        android:icon="@drawable/ic_bank_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bnav_budget"
+        android:icon="@drawable/ic_budget_24"
+        android:title="@string/bottom_navigation_budget" />
+
+    <item
+        android:id="@+id/bnav_income"
+        android:icon="@drawable/ic_income_24"
+        android:title="@string/bottom_navigation_income" />
+
+    <item
+        android:id="@+id/bnav_expenses"
+        android:icon="@drawable/ic_expense_24"
+        android:title="@string/bottom_navigation_expenses" />
+
+    <item
+        android:id="@+id/bnav_savings"
+        android:icon="@drawable/ic_savings_24"
+        android:title="@string/bottom_navigation_savings" />
+
+</menu>

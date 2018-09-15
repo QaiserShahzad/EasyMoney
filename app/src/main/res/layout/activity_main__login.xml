@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:text="Log In"
+        android:layout_weight="0.5"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/input_LoginEmail"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/emaill"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:background="@drawable/edit_singup"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/et_password"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/lock_black"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:background="@drawable/edit_singup"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"/>
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Login"
+            android:background="@drawable/signupbutton"
+            android:id="@+id/btn_Login"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/tv_forgot"
+        android:text="Forgot your Password?"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="#f24255"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:layout_editor_absoluteY="25dp">-->
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout4"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:imeOptions="actionNext"-->
+        <!--android:background="@drawable/edit_singup"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/btn_next"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"-->
+        <!--&gt;-->
+
+        <!--&lt;!&ndash; INPUT &ndash;&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/password"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--app:srcCompat="@drawalock_black24dp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_password"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:background="@null"-->
+
+            <!--android:hint="Passsword"-->
+            <!--android:padding="10dp" />-->
+
+        <!--&lt;!&ndash; ICON &ndash;&gt;-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_next"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="0dp"-->
+
+        <!--android:layout_marginBottom="14dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:background="@drawable/signupbutton"-->
+        <!--android:text="Log In"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/textView6"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/relativeLayout4"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_forgot"-->
+        <!--android:layout_width="155dp"-->
+        <!--android:layout_height="27dp"-->
+
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:layout_marginStart="19dp"-->
+        <!--android:layout_marginLeft="19dp"-->
+        <!--android:text="Forgot your password?"-->
+        <!--android:textColor="	#FF0000"-->
+        <!--android:textSize="14sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/btn_next"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/btn_next" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="48dp"-->
+        <!--android:layout_marginStart="71dp"-->
+        <!--android:layout_marginLeft="71dp"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:text="Log In"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/relativeLayout2"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout2"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:background="@drawable/edit_singup"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/relativeLayout4"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView">-->
+
+        <!--&lt;!&ndash; INPUT &ndash;&gt;-->
+        <!--<ImageView-->
+            <!--android:id="@+id/email"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--android:src="@drawable/email2" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_email"-->
+
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_toRightOf="@+id/email"-->
+            <!--android:background="@null"-->
+            <!--android:hint="Email"-->
+            <!--android:inputType="textEmailAddress"-->
+
+            <!--android:padding="10dp" />-->
+
+        <!--&lt;!&ndash; ICON &ndash;&gt;-->
+
+
+    <!--</RelativeLayout>-->
+
+
+<!--</android.support.constraint.ConstraintLayout>-->

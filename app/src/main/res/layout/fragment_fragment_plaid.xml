@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easycoinbudget.Fragments.Fragment_plaid">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="460dp" />
+
+        <!--<Button-->
+            <!--android:id="@+id/btnAdd"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/button_design"-->
+            <!--android:drawableBottom="@drawable/name"-->
+            <!--android:paddingBottom="20dp"-->
+            <!--android:text="Home"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="18sp"-->
+            <!--tools:layout_editor_absoluteX="136dp"-->
+            <!--tools:layout_editor_absoluteY="407dp" />-->
+
+    </RelativeLayout>
+</FrameLayout>

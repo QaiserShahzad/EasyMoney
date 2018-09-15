@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="Home" />
+        <!--<item-->
+            <!--android:id="@+id/nav_frequency"-->
+            <!--android:icon="@drawable/ic_frequency_24"-->
+            <!--android:title="Pay Period Frequency" />-->
+        <item
+            android:id="@+id/nav_bank"
+            android:icon="@drawable/ic_bank_24"
+            android:title="Bank" />
+        <!--<item-->
+            <!--android:id="@+id/nav_currency"-->
+            <!--android:icon="@drawable/ic_currency_24"-->
+            <!--android:title="Currency" />-->
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_reminder_24"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/nav_pin"
+            android:icon="@drawable/ic_pincode_24"
+            android:title="Pin" />
+        <item
+            android:id="@+id/nav_reset"
+            android:icon="@drawable/ic_reset_24"
+            android:title="Reset" />
+        <item
+            android:id="@+id/nav_logut"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+
+    </group>
+
+</menu>
