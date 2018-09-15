@@ -54,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="Next"
+            android:textColor="@color/colorWhite"
             android:background="@drawable/signupbutton"
             android:id="@+id/btnpasswordmatched_next"
             android:layout_marginRight="40dp"

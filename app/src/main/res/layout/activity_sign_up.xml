@@ -107,6 +107,7 @@
         android:background="@drawable/signupbutton"
         android:id="@+id/btnSignup_Next"
         android:layout_marginRight="40dp"
+        android:textColor="@color/colorWhite"
         android:layout_marginLeft="40dp"/>
 
     </LinearLayout>

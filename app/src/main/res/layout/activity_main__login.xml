@@ -64,6 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="Login"
+            android:textColor="@color/colorWhite"
             android:background="@drawable/signupbutton"
             android:id="@+id/btn_Login"
             android:layout_marginRight="40dp"
