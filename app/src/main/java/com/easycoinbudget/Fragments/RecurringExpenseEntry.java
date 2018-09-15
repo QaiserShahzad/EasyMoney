@@ -79,7 +79,7 @@ public class RecurringExpenseEntry extends Fragment {
                 new String[]{"Daily", "Weekly", "Every Two Weeks", "Monthly"}));
 
         btn_RecUpdate = (Button) view.findViewById(R.id.btnRecUpdate);
-//        btn_Add.setVisibility(View.INVISIBLE);
+        btn_RecUpdate.setVisibility(View.INVISIBLE);
 
         pref = getContext().getSharedPreferences("MyPref", 0);
         user_id = pref.getString("id", null);
